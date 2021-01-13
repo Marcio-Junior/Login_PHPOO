@@ -1,0 +1,63 @@
+*{margin:0px;padding:0px; box-sizing: border-box;}
+
+body{
+	height:100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Arial';
+}
+
+.box_login{
+	width:400px;
+	height:400px;
+	background-color:#1C1C1C;
+	border:0;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.capa{
+	height:160px;
+	background-color: red;
+	background-image: url(../img/teste.jpg);
+	
+	
+	
+}
+h1{
+	color:white;
+	font-size: 24px;
+	text-align: left;
+	margin: 15px 0 20px 15px;
+	
+	font-weight: 500;
+}
+
+form input{
+	width:90%;
+	padding: 5px 10px;
+	margin: 0px 20px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	height: 35px;
+	border:0;
+	text-align:center;
+
+}
+.btn-logar{
+	background: #3CE888;
+	color:#fff;
+	width:90%;
+	margin: 0px 20px;
+	height: 30px;
+	border-radius: 10px;
+	border:0;
+}
+.erro{
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	font-size:10px;
+	padding-top: 15px;
+
+}

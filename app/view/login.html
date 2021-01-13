@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title></title>
+</head>
+<body>
+	<div class="box_login">
+		<div class="capa">		
+		</div>
+		<h1>Faça seu login</h1>
+		<form method="POST" action="http://localhost/login/check">
+				<input type="email" name="email"placeholder="Seu e-mail">
+				<input type="password" name="password"placeholder="Sua senha">
+				
+				<button class="btn-logar">Logar </button>
+
+				{% if error !='' %};
+					<span class="erro"><p>Erro ao tentar logar</p></span>
+				{% endif %}	
+		</form>
+
+    </div>
+</body>
+</html>
